@@ -126,7 +126,7 @@ graphql`
 fragment TodoApp_app on App {
   items {
     // parent type is a list here
-    ...TodoItem_items
+    ...TodoItems_items
   }
 }
 ```
